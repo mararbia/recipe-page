@@ -1,0 +1,137 @@
+main {
+    background-color: var(--eggshell);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.container {
+    background-color: var(--white);
+    max-width: 736px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.container .food-menu .food-image {
+    max-width: 658px;
+    margin: 0 auto;
+}
+
+.container .food-menu .food-image img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.container .food-menu .description {
+    padding: 20px;
+}
+
+.container .food-menu .description h1 {
+    font-family: "Young-Serif-Regular", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.container .food-menu .description p {
+    font-family: "Outfit-Light", sans-serif;
+    color: var(--dark-charcoal);
+}
+
+.container .food-menu .preparation-time {
+    background-color: var(--rose-white);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.container .food-menu .preparation-time .preparation-content {
+    gap: 10px;
+}
+
+.container .food-menu .preparation-time .preparation-content h3{
+    font-family: "Outfit-Light", sans-serif;
+    margin-bottom: 10px;
+    color: var(--dark-raspberry);
+}
+
+.container .food-menu .preparation-time .preparation-content ul {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: var(--wenge-brown);
+}
+
+.container .food-menu .ingredients h3,
+.container .food-menu .instructions h3,
+.container .food-menu .nutrition h3 {
+    font-family: "Young-Serif-Regular", sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: var(--nutmeg);
+    margin-top: 20px;
+}
+
+.container .food-menu .ingredients ul,
+.container .food-menu .instructions ol {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: var(--wenge-brown);
+}
+
+.container .food-menu hr {
+    border: 1px solid var(--rose-white);
+}
+
+.container .food-menu .instructions ol {
+    display: flex;
+    gap: 10px;
+}
+
+.container .food-menu .instructions ol li {
+    padding-left: 10px;
+}
+
+.container ul li::marker {
+    color: var(--dark-raspberry);
+    font-family: "Outfit-SemiBold", sans-serif;
+    font-size: .8rem;
+}
+
+.container ol li::marker {
+    color: var(--dark-raspberry);
+    font-family: "Outfit-SemiBold", sans-serif;
+}
+
+.container .food-menu .nutrition p {
+    margin: 20px 0 20px 0;
+    color: var(--wenge-brown);
+    font-size: 1.2rem;
+}
+
+.container .food-menu .nutrition ul {
+    list-style: none;
+}
+
+.container .food-menu .nutrition ul li {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-family: "Outfit-Light", sans-serif;
+    font-size: 1rem;
+}
+
+.container .food-menu .nutrition ul li span {
+    width: 50%;
+    color: var(--wenge-brown);
+}
+
+.container .food-menu .nutrition ul li p {
+    font-weight: 700;
+    color: var(--nutmeg);
+    font-size: 1rem;
+}

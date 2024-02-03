@@ -1,0 +1,47 @@
+@media screen and (max-width: 475px) {
+    main {
+        padding: 0;
+    }
+
+    .container {
+        padding: 0;
+        border-radius: 0;
+    }
+
+    .container .food-menu .food-image {
+        min-width: 375px;
+    }
+
+    .container .food-menu .food-image img {
+        border-radius: 0;
+    }
+
+    .container .food-menu .ingredients,
+    .container .food-menu .instructions,
+    .container .food-menu .nutrition {
+        padding: 20px;
+    }
+
+    .container .food-menu .description h1 {
+        font-size: 2rem;
+    }
+
+    .container .food-menu .description p {
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+    }
+
+    .container .food-menu .preparation-time {
+        padding: 20px;
+    }
+
+    .container .food-menu .preparation-time .preparation-content {
+        padding: 20px;
+    }
+
+    .container .food-menu .ingredients h3,
+    .container .food-menu .instructions h3,
+    .container .food-menu .nutrition h3 {
+    margin-top: 0;
+    }
+}
